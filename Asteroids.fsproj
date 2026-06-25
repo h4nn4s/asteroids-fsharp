@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="asteroids.fsi" />
+    <Compile Include="asteroids.fs" />
+    <Compile Include="asteroidsApp.fsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DIKU.Canvas" Version="2.0.1" />
+  </ItemGroup>
+
+
+</Project>
